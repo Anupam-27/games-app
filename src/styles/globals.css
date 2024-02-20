@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200&display=swap');
+/* @import "@fontsource/metropolis"; */
+
+/*      Header      */
+body {
+  font-family: "Nunito", "sans-serif";
+  font-weight: 400;
+  /* color: rgb(165, 52, 52);  TODO: commented as we dont use red color on text as default */
+  letter-spacing: 0px;
+}
+
+html,
+body
+{
+  margin: 0;
+  height: 100%;
+  max-width: 375px;
+  position: relative;
+  font-family: "Nunito", "sans-serif";
+}
+#__next{
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s ease all;
+  line-height: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h6 {
+  font-size: 16px;
+}
